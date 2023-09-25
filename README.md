@@ -1,29 +1,23 @@
-cdn.ch.gov.uk
+ch-java-utils
 =============
 
-Static assets and content for CHS. This content can be uploaded to a content distribution network or hosted using nginx.
+Static java utility assets to currently support internationalisation (i18n) for different languages on java frontends. 
 
-Requirements
 ------------
 
 In order to build this service you need:
 
-* [Nodejs & npm](https://nodejs.org/en/download/package-manager/)
-* [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-* [Bundler](http://bundler.io/)
-* [Grunt CLI](http://gruntjs.com/getting-started)
-
-In order to run this service you need:
-
-* [Nginx](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
+* [Java](https://nodejs.org/en/download/package-manager/)
+* [Mvn](https://www.ruby-lang.org/en/documentation/installation/)
 
 Getting Started
 ---------------
 
-1. Run `make`
-2. Run `./start.sh`
+1. To build `mvn clean install`
 
 Deployment instuctions
 ----------------------
 
-Instructions on deploying can be found on the Wiki for this repository above.
+This jar file currently contains the thymeleaf resources functions to add a locale banner 
+on the page to support different languages.
+This will build the jar in the local maven repository to be picked up in the classpath.
