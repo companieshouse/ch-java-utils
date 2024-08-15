@@ -1,3 +1,12 @@
+# REPO NO MORE IN USE:
+# THESE TEMPLATES WERE MOVE TO
+[/common-web-java](https://github.com/companieshouse/common-web-java/tree/features/i18n/src/main/resources/templates/locales)
+
+
+
+
+
+
 ch-java-utils
 =============
 
